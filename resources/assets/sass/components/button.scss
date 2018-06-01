@@ -31,7 +31,16 @@ $button-main-color: #37c956;
     }
 
     &_right-arrow::after {
-        content: '🡲';
+        font-family: Font Awesome\ 5 Free;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        font-weight: 900;
+        font-size: 12px;
+        content: "\f054";
         margin-left: 5px;
     }
 }
