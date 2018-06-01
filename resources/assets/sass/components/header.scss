@@ -1,0 +1,61 @@
+.header {
+    background: $main-bg-color;
+    color: #fff;
+
+    &__inner {
+        width: $max-width;
+        margin: 0 auto;
+        padding: 10px 0 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo-wrapper {
+        display: flex;
+    }
+
+    &__logo {
+        width: 276px;
+        height: 62px;
+        background: url('#{$img-url}logo.png') no-repeat;
+        display: block;
+        overflow: hidden;
+        text-indent: -3000px;
+    }
+
+    &__title {
+        font-size: 10px;
+        line-height: 14px;
+        text-transform: uppercase;
+        border-left: 1px solid #bfc6ea;
+        height: 40px;
+        padding: 6px 0 0 15px;
+        margin: 11px 0 0 28px;
+    }
+
+    &__contacts {
+        padding: 0 25px 0;       
+        text-align: right;
+        font-size: 12px;
+    }
+
+    &__right {
+        padding: 5px 0 0;
+        display: flex;
+    }
+
+    &-image {
+        height: 373px;
+        background: #ebe9ea url('#{$img-url}bg-2.jpg') no-repeat 100% 0;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        &__inner {
+            width: $max-width;
+            margin: 0 auto;
+
+            padding: 65px 330px 0 0;
+        }
+    }
+}

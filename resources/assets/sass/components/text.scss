@@ -1,0 +1,88 @@
+.text {
+
+    &__info {
+        padding: 24px 0 22px 130px;
+        margin: 0 0 35px;
+        background: #f2f2d7 url('#{$img-url}icon-1.png') no-repeat 38px 50%;
+        font-style: italic;
+
+        &_no-icon {
+            background-image: none;
+            padding-left: 30px;
+        }
+    }
+
+    &__img-top {
+        padding: 0 0 40px;
+    }
+
+    &__paragraph {
+        padding: 0 0 45px;
+    }
+
+    &__container {
+        position: relative;
+        padding: 30px 50px 30px;
+        margin: 0 -50px 50px -50px;
+
+        &_grey {
+            background: #ecf0f1;
+        }
+
+        &_bg-1 {
+            background-image: url('#{$img-url}bg-1.jpg');
+            background-position: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        &_law {
+            background: #ebeff0 url('#{$img-url}icon-2.jpg') no-repeat 50px 50%;
+            padding: 115px 70px 100px 310px;
+            font-size: 18px;
+        }
+    }
+
+    &-list {
+        margin: 0;
+        padding: 0 0 15px 15px;
+        list-style: none;
+
+        &__item {
+            position: relative;
+            padding: 0 0 15px 25px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 10px;
+                left: 0;
+                width: 6px;
+                height: 6px;
+                background: #0a1a68;
+                border-radius: 6px;
+            }
+        }
+    }
+
+    &-offer {
+        position: relative;
+        width: 435px;
+        padding: 25px 20px 35px 30px;
+        margin: -100px 0 20px 30px;
+        background: #ecf0f1;
+        line-height: 24px;
+        float: right;
+
+        i {
+            color: #1c1c1c;
+        }
+
+        &__price {
+            font-size: 30px;
+            font-weight: bolder;
+            padding-top: 30px;
+            color: #212121;
+        }
+    }
+
+}

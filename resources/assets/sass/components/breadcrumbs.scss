@@ -1,0 +1,27 @@
+.breadcrumbs {
+    margin: 0;
+    padding: 0 0 20px;
+    list-style: none;
+    font-size: 12px;
+    color: #5c5c5c;
+
+    &__item {
+        display: inline-block;
+
+        a {
+            color: #5c5c5c;
+            text-decoration: underline;
+        }
+
+        &:after {
+            content: '/';
+            margin: 0 5px;
+        }
+    }
+
+    li:last-child {
+        &::after {
+            display: none;
+        }
+    }
+}

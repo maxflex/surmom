@@ -1,0 +1,51 @@
+$contacts-left-indent: 34px;
+
+.contacts {
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-left {
+        width: 420px;
+        padding: 45px 0 0;
+
+        &__text {
+            padding: 0 0 25px;
+        }
+
+        &__hour {
+            color: #848484;
+            padding-bottom: 25px;
+        }
+
+        &__info {
+            padding-left: $contacts-left-indent;
+        }
+        
+        .phone-container {
+            font-size: 36px;
+            padding-left: $contacts-left-indent;
+            padding-bottom: 5px;
+        }
+    }
+
+
+    &-right {
+        width: 490px;
+        border: 3px solid #e4e5e8;
+        padding: 25px 125px 25px 36px;
+
+        &__title {
+            font-size: 21px;
+            line-height: 29px;
+            padding-bottom: 20px;
+        }
+
+        .form-column {
+            padding-bottom: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,26 @@
+.service-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__name {
+        color: #909090;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding: 0 0 5px;
+    }
+
+    &__item {
+        border: 1px solid #dcdcdc;
+        position: relative;
+        margin: 0 0 -1px;
+        padding: 15px 25px 25px 45px;
+    }
+
+    &__text {
+        font-size: 12px;
+        line-height: 20px;
+        color: #878787;
+        padding: 0 0 24px;
+    }
+}

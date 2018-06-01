@@ -1,0 +1,37 @@
+$button-main-color: #37c956;
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid $button-main-color;
+    padding: 0 12px;
+    height: 36px;
+    line-height: 33px;
+    color: $button-main-color;
+    border-radius: 36px;
+    text-decoration: none;
+    background: none;
+
+    &:hover {
+        background: $button-main-color;
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &_bg {
+        background: $button-main-color;
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &_right-arrow::after {
+        content: '🡲';
+        margin-left: 5px;
+    }
+}

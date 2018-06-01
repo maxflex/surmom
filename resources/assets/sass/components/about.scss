@@ -1,0 +1,37 @@
+.about {
+    &-list {
+        margin: 0;
+        padding: 20px 0 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+
+        &__item {
+            padding: 0 0 25px 80px;
+            margin: 0 0 35px;
+            border-bottom: 1px solid #cdcdcd; 
+            width: 450px;
+
+            &_icon-1 {
+                background: url('#{$img-url}icon-about-1.png') no-repeat;
+            }
+
+            &_icon-2 {
+                background: url('#{$img-url}icon-about-2.png') no-repeat;
+            }
+
+            &_icon-3 {
+                background: url('#{$img-url}icon-about-3.png') no-repeat;
+            }
+
+            &_icon-4 {
+                background: url('#{$img-url}icon-about-4.png') no-repeat;
+            }
+
+            &_icon-5 {
+                background: url('#{$img-url}icon-about-5.png') no-repeat;
+            }
+        }
+    }
+}
