@@ -27,13 +27,12 @@
 
 				<div
 					class="header__logo-wrapper">
-					<a
-						href="/"
-						title="Reproductio"
-						class="header__logo">
-						Reproductio
-					</a>
-
+                    <a class="header__logo-link" href="/">
+                        <img src="/images/logo.png" />
+                    </a>
+                    <div class="header__logo-title">
+                        Reproductio
+                    </div>
 					<div
 						class="header__title">
 						Центр репродукции и <br>
@@ -234,8 +233,16 @@
 					href="/"
 					title="Центр репродукции и суррогатного материнства"
 					class="footer__logo">
-					Центр репродукции и <br>
-					суррогатного материнства
+                    <div class="footer__logo--logo">
+                        <img src="/images/logo.png" />
+                        <span>
+                            Reproductio
+                        </span>
+                    </div>
+                    <div style='margin-left: 53px'>
+                        Центр репродукции и<br />
+                        суррогатного материнства
+                    </div>
 				</a>
 
 				<div

@@ -13,15 +13,21 @@
 
     &__logo-wrapper {
         display: flex;
+        align-items: center;
     }
 
-    &__logo {
-        width: 276px;
-        height: 62px;
-        background: url('#{$img-url}logo.png') no-repeat;
-        display: block;
-        overflow: hidden;
-        text-indent: -3000px;
+    &__logo-link {
+        margin-right: 10px;
+        display: inline-flex;
+        & img {
+            height: 50px;
+        }
+    }
+
+    &__logo-title {
+        font-size: 30px;
+        color: $color-green;
+        font-weight: 600;
     }
 
     &__title {
@@ -31,11 +37,11 @@
         border-left: 1px solid #bfc6ea;
         height: 40px;
         padding: 6px 0 0 15px;
-        margin: 11px 0 0 28px;
+        margin-left: 28px;
     }
 
     &__contacts {
-        padding: 0 25px 0;       
+        padding: 0 25px 0;
         text-align: right;
         font-size: 12px;
     }

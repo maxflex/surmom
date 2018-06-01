@@ -15,13 +15,24 @@
 
     &__logo {
         display: block;
-        background: url('#{$img-url}logo-footer.png') no-repeat;
         width: 244px;
         height: 54px;
         text-decoration: none;
-        padding: 55px 0 0 70px;
         font-size: 10px;
         line-height: 14px;
+        &--logo {
+            display: flex;
+            align-items: center;
+            & span {
+                font-size: 24px;
+                color: $color-green;
+                font-weight: 600;
+            }
+        }
+        & img {
+            height: 40px;
+            margin-right: 10px;
+        }
     }
 
     &-top {
@@ -37,14 +48,14 @@
     }
 
     &-bottom {
-        border-top: 1px solid #354389; 
+        border-top: 1px solid #354389;
         font-size: 14px;
         color: #9aa3d0;
 
         &__inner {
             width: $max-width;
             margin: 0 auto;
-            padding: 18px 0 24px; 
+            padding: 18px 0 24px;
             display: flex;
             justify-content: space-between;
         }

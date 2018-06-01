@@ -1,0 +1,93 @@
+.common {
+    width: 960px;
+    margin: 0 auto;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.full-width-wrapper {
+    width: calc(100vw);
+    margin-left: calc((100vw - 960px) / 2 * -1);
+    min-width: 1000px;
+}
+
+.banner-block {
+    background: url('/pictures/pict.jpg');
+	background-position: -230px center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: calc(100vw - calc((100vw - 960px) / 2));
+    position: relative;
+    margin-bottom: 100px;
+    & .image-link {
+	    position: absolute;
+	    z-index: 90;
+	    top: 14px;
+	    font-size: 12px;
+	    & img {
+		    height: 9px;
+/*
+			top: 1px;
+			position: relative;
+*/
+		    margin-right: 5px;
+	    }
+    }
+    & .info {
+        text-align: right;
+        justify-content: flex-end;
+        position: inherit;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        & h1 {
+            padding: 0;
+            font-weight: 800;
+			font-size: 45px;
+			width: 125%;
+			margin-left: -25%;
+        }
+        & .quote {
+            font-size: 16px;
+            margin: 80px 0;
+        }
+        & .tutor-title {
+            line-height: $line-height;
+            & b {
+                display: block;
+            }
+        }
+        & > div {
+	        width: 515px;
+        }
+    }
+    & .gradient {
+        background: linear-gradient(to left, white 230px, transparent 95%);
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        height: 100%;
+		width: 70%;
+        left: auto;
+        right: 0;
+    }
+    &.left {
+	    margin-left: 0;
+		margin-right: calc((100vw - 960px) / 2 * -1);
+		background-position: 230px center;
+		& .info {
+			justify-content: flex-start;
+			text-align: left;
+			& h1 {
+				margin-left: 0;
+			}
+		}
+		& .gradient {
+			left: 0;
+			right: auto;
+			background: linear-gradient(to right, white 230px, transparent 95%);
+		}
+    }
+}

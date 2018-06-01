@@ -14,12 +14,13 @@
     &__item {
         font-size: 13px;
         position: relative;
-
         &:hover {
             .header-menu-dropdown {
+                box-shadow: 0 0 15px rgba(black, .5);
                 display: block;
+                z-index: 1;
             }
-            
+
             .header-menu__link {
                 border-bottom: 4px solid $default-color-link;
             }

@@ -14,6 +14,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    min-width: $max-width + 20px * 2;
 }
 
 html {
@@ -70,7 +71,7 @@ a {
 .center-wrapper {
     padding: 35px 0 50px;
     border-top: 1px solid #e2e2e2;
-    
+
     background: rgb(234,238,239);
     background: -moz-linear-gradient(top, rgba(234,238,239,1) 0%, rgba(255,255,255,1) 100px);
     background: -webkit-linear-gradient(top, rgba(234,238,239,1) 0%,rgba(255,255,255,1) 100px);
@@ -131,7 +132,7 @@ blockquote {
     margin: 0 0 50px;
 
     &.blockquote-color-green {
-        border-left-color: #37c956;        
+        border-left-color: #37c956;
     }
 }
 
