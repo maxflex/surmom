@@ -782,8 +782,8 @@ a {
   background: #ecf0f1;
   line-height: 24px;
   float: right;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
   margin-right: 20px;
 }
 
