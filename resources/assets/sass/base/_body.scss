@@ -121,7 +121,9 @@ h4 {
 
     &_icon-1 {
         padding-top: 10px;
-        background: url('#{$img-url}icon-3.png') no-repeat;
+        padding-left: 54px;
+        background: url('/pictures/svg/first-aid-kit.svg') no-repeat;
+        background-size: 40px;
     }
 }
 

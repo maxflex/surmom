@@ -120,7 +120,9 @@ h4 {
 
 .h-left-icon_icon-1 {
   padding-top: 10px;
-  background: url(/images/icon-3.png?e38bde5329934f3bd1bbadc23a5ba9ca) no-repeat;
+  padding-left: 54px;
+  background: url("/pictures/svg/first-aid-kit.svg") no-repeat;
+  background-size: 40px;
 }
 
 blockquote {
@@ -705,7 +707,8 @@ a {
 .text__info {
   padding: 24px 0 18px 130px;
   margin: 0 0 35px;
-  background: #f2f2d7 url(/images/icon-1.png?0df1b71b6505788bd5f8c61c9e9a6324) no-repeat 38px 50%;
+  background: #f2f2d7 url("/pictures/svg/caution.svg") no-repeat 38px 50%;
+  background-size: 55px;
   font-style: italic;
 }
 
@@ -743,9 +746,10 @@ a {
 }
 
 .text__container_law {
-  background: #ebeff0 url(/images/icon-2.jpg?05e72cdbb6d717fb76bae946b2006f33) no-repeat 50px 50%;
+  background: #ebeff0 url("/pictures/png/moh.png") no-repeat 50px 50%;
   padding: 115px 70px 100px 310px;
   font-size: 18px;
+  background-size: 210px;
 }
 
 .text-list {
@@ -1259,5 +1263,9 @@ a {
 
 .page-contacts .send-order {
   display: none !important;
+}
+
+.pointer {
+  cursor: pointer;
 }
 

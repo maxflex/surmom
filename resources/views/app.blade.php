@@ -257,7 +257,7 @@
 							class="footer-menu__item">
 							<a
 								title="О нас"
-								href="#"
+								href="/about"
 								class="footer-menu__link">
 								О нас
 							</a>
@@ -266,7 +266,7 @@
 							class="footer-menu__item">
 							<a
 								title="Родителям"
-								href="#"
+								href="/for-parents"
 								class="footer-menu__link">
 								Родителям
 							</a>
@@ -275,7 +275,7 @@
 							class="footer-menu__item">
 							<a
 								title="Сурогатным мамам"
-								href="#"
+								href="/for-surrogates"
 								class="footer-menu__link">
 								Сурогатным мамам
 							</a>
@@ -284,7 +284,7 @@
 							class="footer-menu__item">
 							<a
 								title="Донорам гамет"
-								href="#"
+								href="/for-donors"
 								class="footer-menu__link">
 								Донорам гамет
 							</a>
@@ -293,7 +293,7 @@
 							class="footer-menu__item">
 							<a
 								title="Контакты"
-								href="#"
+								href="/contacts"
 								class="footer-menu__link">
 								Контакты
 							</a>

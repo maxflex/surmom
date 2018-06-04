@@ -1007,7 +1007,8 @@ var app = new Vue({
     data: function data() {
         return {
             request: {},
-            request_sent: false
+            request_sent: false,
+            menu: 1
         };
     },
     methods: {
