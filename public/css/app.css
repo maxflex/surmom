@@ -703,7 +703,7 @@ a {
 }
 
 .text__info {
-  padding: 24px 0 22px 130px;
+  padding: 24px 0 18px 130px;
   margin: 0 0 35px;
   background: #f2f2d7 url(/images/icon-1.png?0df1b71b6505788bd5f8c61c9e9a6324) no-repeat 38px 50%;
   font-style: italic;
@@ -718,6 +718,10 @@ a {
   padding: 0 0 40px;
 }
 
+.text__img-top img {
+  width: 100%;
+}
+
 .text__paragraph {
   padding: 0 0 45px;
 }
@@ -725,7 +729,7 @@ a {
 .text__container {
   position: relative;
   padding: 30px 50px 30px;
-  margin: 0 -50px 50px -50px;
+  margin-bottom: 50px;
 }
 
 .text__container_grey {
