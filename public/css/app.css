@@ -989,7 +989,7 @@ a {
 .steps-list__item::before {
   content: '';
   position: absolute;
-  top: 46px;
+  top: 28px;
   left: -15px;
   background: url("/pictures/svg/arrow-pointing-to-right.svg") no-repeat;
   width: 22px;
