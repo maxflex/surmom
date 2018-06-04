@@ -28,13 +28,7 @@
 		<div
 			class="text">
 
-			<div
-				class="text__img-top">
-				<img
-					src="pictures/img1.jpg"
-					alt="IMG"
-				/>
-			</div>
+			<div class="text__img-top" style="background-image: url('/pictures/baby-feet.jpg')"></div>
 
 			<h3>
 				Перечень услуг в составе программы

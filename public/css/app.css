@@ -715,11 +715,11 @@ a {
 }
 
 .text__img-top {
-  padding: 0 0 40px;
-}
-
-.text__img-top img {
   width: 100%;
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
 }
 
 .text__paragraph {
