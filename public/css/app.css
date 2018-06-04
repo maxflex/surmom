@@ -829,7 +829,7 @@ a {
   max-width: 1300px;
   margin: 0 auto;
   padding: 21px 0 26px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
 .benefits-list {
@@ -1140,7 +1140,7 @@ a {
   height: 600px;
   width: calc(100vw - calc((100vw - 960px) / 2));
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .banner-block .image-link {
