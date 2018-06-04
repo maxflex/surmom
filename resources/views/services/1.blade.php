@@ -11,7 +11,7 @@
 				class="breadcrumbs__item">
 				<a
 					title="Главная"
-					href="#">
+					href="/">
 					Главная</a>
 			</li>
 			<li
@@ -30,7 +30,7 @@
 			<div
 				class="text__img-top">
 				<img
-					src="pictures/img1.jpg"
+					src="/pictures/img1.jpg"
 					alt="IMG"
 				/>
 			</div>

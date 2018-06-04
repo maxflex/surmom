@@ -69,7 +69,7 @@
         }
     }
     & .gradient {
-        background: linear-gradient(to left, white 230px, transparent 95%);
+        background: linear-gradient(to left, #f2f2f2 230px, transparent 95%);
         overflow: hidden;
         position: absolute;
         top: 0;
@@ -92,7 +92,7 @@
 		& .gradient {
 			left: 0;
 			right: auto;
-			background: linear-gradient(to right, white 230px, transparent 95%);
+			background: linear-gradient(to right, #f2f2f2 230px, transparent 95%);
 		}
     }
 }
@@ -106,5 +106,11 @@
         &:hover {
             background: $steps-button-color;
         }
+    }
+}
+
+.page-contacts {
+    & .send-order {
+        display: none !important;
     }
 }

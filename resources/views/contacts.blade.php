@@ -1,10 +1,6 @@
 @extends('app')
+@section('page', 'contacts')
 @section('content')
-    <style>
-        .send-order {
-            display: none;
-        }
-    </style>
 <div
 	class="center-wrapper">
 	<div
@@ -21,7 +17,7 @@
 			</li>
 			<li
 				class="breadcrumbs__item">
-				Услуги
+				Контакты
 			</li>
 		</ul>
 
@@ -68,47 +64,53 @@
 				<form
 					action="/"
 					class="contacts-right__form">
+                    <div v-show="!request_sent">
+    					<div
+    						class="contacts-right__title">
+    						Заполните форму и мы вам перезвоним!
+    					</div>
 
-					<div
-						class="contacts-right__title">
-						Заполните форму и мы вам перезвоним!
-					</div>
+    					<div
+    						class="form-column">
+    						<input
+    							type="text"
+    							placeholder="Имя"
+                                v-model="request.name"
+    							class="input-text"
+    						/>
+    					</div>
 
-					<div
-						class="form-column">
-						<input
-							type="text"
-							placeholder="Имя"
-							class="input-text"
-						/>
-					</div>
+    					<div
+    						class="form-column">
+    						<input
+    							type="text"
+                                placeholder="+7 (___) ____ - __  - __"
+                                v-mask="'+7 (###) ###-##-##'"
+                                v-model="request.phone"
+    							class="input-text input-phone-mask"
+    						/>
+    					</div>
 
-					<div
-						class="form-column">
-						<input
-							type="text"
-							placeholder="+7 (___) ____ - __  - __"
-							class="input-text input-phone-mask"
-						/>
-					</div>
+    					<div
+    						class="form-column">
+    						<select
+    							class="input-select">
+    							<option
+    								value="">
+    								От кого
+    							</option>
+    						</select>
+    					</div>
 
-					<div
-						class="form-column">
-						<select
-							class="input-select">
-							<option
-								value="">
-								От кого
-							</option>
-						</select>
-					</div>
-
-					<button
-						title="Отправить"
-						class="button button_bg button_right-arrow">
-						Отправить
-					</button>
-
+    					<button @click.prevent="makeRequest"
+    						title="Отправить"
+    						class="button button_bg button_right-arrow">
+    						Отправить
+    					</button>
+                    </div>
+                    <div v-show="request_sent">
+                        <h2>Заявка отправлена!</h2>
+                    </div>
 				</form>
 			</div>
 

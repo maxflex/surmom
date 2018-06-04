@@ -11,7 +11,7 @@
 				class="breadcrumbs__item">
 				<a
 					title="Главная"
-					href="#">
+					href="/">
 					Главная</a>
 			</li>
 			<li

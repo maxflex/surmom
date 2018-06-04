@@ -23,22 +23,22 @@ Route::get('/contacts', function () {
     return view('contacts');
 });
 
-Route::get('/service', function () {
+Route::get('/services', function () {
     return view('service');
 });
 
-Route::get('/text', function () {
-    return view('text');
+Route::get('/for-parents', function () {
+    return view('for-parents');
 });
 
-Route::get('/text1', function () {
-    return view('text1');
+Route::get('/for-surrogates', function () {
+    return view('for-surrogates');
 });
 
-Route::get('/text2', function () {
-    return view('text2');
+Route::get('/for-donors', function () {
+    return view('for-donors');
 });
 
-Route::get('/text3', function () {
-    return view('text3');
+Route::get('/services/1', function () {
+    return view('services.1');
 });

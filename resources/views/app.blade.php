@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 
 </head>
-<body>
+<body class="page-@yield('page')">
 	<div
 		class="main" id="app">
 
@@ -55,7 +55,7 @@
 					</div>
 
 					<a
-						href="#"
+						href="/contacts"
 						title="Записаться на прием"
 						class="button">
 						Записаться на прием
@@ -73,7 +73,7 @@
 				<li
 					class="header-menu__item header-menu__item_active">
 					<a
-						href="#"
+						href="/"
 						title="О нас"
 						class="header-menu__link">
 						О нас
@@ -82,7 +82,7 @@
 				<li
 					class="header-menu__item">
 					<a
-						href="#"
+						href="/services"
 						title="Услуги"
 						class="header-menu__link">
 						Услуги
@@ -94,7 +94,7 @@
 							class="header-menu-dropdown__item">
 							<a
 								title="Программа Сопровождение"
-								href="#"
+								href="/services/1"
 								class="header-menu-dropdown__link">
 								Программа Сопровождение
 							</a>
@@ -131,7 +131,7 @@
 				<li
 					class="header-menu__item">
 					<a
-						href="#"
+						href="/for-parents"
 						title="Родителям"
 						class="header-menu__link">
 						Родителям
@@ -140,7 +140,7 @@
 				<li
 					class="header-menu__item">
 					<a
-						href="#"
+						href="/for-surrogates"
 						title="Суррогатным мамам"
 						class="header-menu__link">
 						Суррогатным мамам
@@ -149,7 +149,7 @@
 				<li
 					class="header-menu__item">
 					<a
-						href="#"
+						href="/for-donors"
 						title="Донорам гамет"
 						class="header-menu__link">
 						Донорам гамет
@@ -158,7 +158,7 @@
 				<li
 					class="header-menu__item">
 					<a
-						href="#"
+						href="/contacts"
 						title="Контакты"
 						class="header-menu__link">
 						Контакты
