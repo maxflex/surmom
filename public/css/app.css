@@ -325,11 +325,6 @@ a {
   border-bottom: 4px solid #0a1a68;
 }
 
-.header-menu__item_active .header-menu__link {
-  color: #363636;
-  border-bottom: 4px solid #0a1a68;
-}
-
 .header-menu-dropdown {
   margin: 0;
   padding: 25px 0 15px 25px;
@@ -1245,6 +1240,17 @@ a {
 
 .steps-full-width .button:hover {
   background: #397686;
+}
+
+.active-page .header-menu__link,
+.page-about .menu-about .header-menu__link,
+.page-contacts .menu-contacts .header-menu__link,
+.page-services .menu-services .header-menu__link,
+.page-for-donors .menu-for-donors .header-menu__link,
+.page-for-surrogates .menu-for-surrogates .header-menu__link,
+.page-for-parents .menu-for-parents .header-menu__link {
+  color: #363636;
+  border-bottom: 4px solid #0a1a68;
 }
 
 .page-contacts .send-order {

@@ -42,13 +42,6 @@
             border-bottom: 4px solid $default-color-link;
         }
     }
-
-    &__item_active {
-        .header-menu__link {
-            color: #363636;
-            border-bottom: 4px solid $default-color-link;
-        }
-    }
 }
 
 .header-menu-dropdown {

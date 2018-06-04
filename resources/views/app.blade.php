@@ -32,9 +32,11 @@
                     <a class="header__logo-link" href="/">
                         <img src="/images/logo.png" />
                     </a>
-                    <div class="header__logo-title">
-                        Reproductio
-                    </div>
+                    <a href="/">
+                        <div class="header__logo-title">
+                            Reproductio
+                        </div>
+                    </a>
 					<div
 						class="header__title">
 						Центр репродукции и <br>
@@ -71,16 +73,16 @@
 			<ul
 				class="header-menu__list">
 				<li
-					class="header-menu__item header-menu__item_active">
+					class="header-menu__item menu-about header-menu__item_active">
 					<a
-						href="/"
+						href="/about"
 						title="О нас"
 						class="header-menu__link">
 						О нас
 					</a>
 				</li>
 				<li
-					class="header-menu__item">
+					class="header-menu__item menu-services">
 					<a
 						href="/services"
 						title="Услуги"
@@ -129,7 +131,7 @@
 					</ul>
 				</li>
 				<li
-					class="header-menu__item">
+					class="header-menu__item menu-for-parents">
 					<a
 						href="/for-parents"
 						title="Родителям"
@@ -138,7 +140,7 @@
 					</a>
 				</li>
 				<li
-					class="header-menu__item">
+					class="header-menu__item menu-for-surrogates">
 					<a
 						href="/for-surrogates"
 						title="Суррогатным мамам"
@@ -147,7 +149,7 @@
 					</a>
 				</li>
 				<li
-					class="header-menu__item">
+					class="header-menu__item menu-for-donors">
 					<a
 						href="/for-donors"
 						title="Донорам гамет"
@@ -156,7 +158,7 @@
 					</a>
 				</li>
 				<li
-					class="header-menu__item">
+					class="header-menu__item menu-contacts">
 					<a
 						href="/contacts"
 						title="Контакты"

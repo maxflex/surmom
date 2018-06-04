@@ -1,4 +1,5 @@
 @extends('app')
+@section('page', 'index')
 @section('content')
     <div class="full-width" style='background: #f2f2f2'>
         <div class="common">

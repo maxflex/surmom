@@ -109,8 +109,45 @@
     }
 }
 
-.page-contacts {
-    & .send-order {
-        display: none !important;
+.active-page {
+    & .header-menu__link {
+        color: #363636;
+        border-bottom: 4px solid $default-color-link;
+    }
+}
+
+.page {
+    &-about {
+        & .menu-about {
+            @extend .active-page;
+        }
+    }
+    &-contacts {
+        & .send-order {
+            display: none !important;
+        }
+        & .menu-contacts {
+            @extend .active-page;
+        }
+    }
+    &-services {
+        & .menu-services {
+            @extend .active-page;
+        }
+    }
+    &-for-donors {
+        & .menu-for-donors {
+            @extend .active-page;
+        }
+    }
+    &-for-surrogates {
+        & .menu-for-surrogates {
+            @extend .active-page;
+        }
+    }
+    &-for-parents {
+        & .menu-for-parents {
+            @extend .active-page;
+        }
     }
 }

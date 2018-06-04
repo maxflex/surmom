@@ -1,4 +1,5 @@
 @extends('app')
+@section('page', 'for-surrogates')
 @section('content')
 <div
 	class="center-wrapper">

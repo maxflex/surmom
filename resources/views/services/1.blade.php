@@ -1,4 +1,5 @@
 @extends('app')
+@section('page', 'services')
 @section('content')
 <div
 	class="center-wrapper">

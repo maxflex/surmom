@@ -1,4 +1,5 @@
 @extends('app')
+@section('page', 'services')
 @section('content')
 <div
 	class="center-wrapper">
@@ -63,7 +64,7 @@
 
 				<h2>
 					<a
-						href="#">
+						href="/services/1">
 						Сопровождение
 					</a>
 				</h2>
@@ -74,7 +75,7 @@
 				</div>
 
 				<a
-					href="#"
+					href="/services/1"
 					title="Подробнее"
 					class="button button_right-arrow">
 					Подробнее
