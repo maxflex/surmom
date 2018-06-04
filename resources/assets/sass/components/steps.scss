@@ -34,8 +34,8 @@
             &::before {
                 content: '';
                 position: absolute;
-                top: 28px;
-                left: -15px;
+                top: 43px;
+                left: -13px;
                 background: url('/pictures/svg/arrow-pointing-to-right.svg') no-repeat;
                 width: 22px;
                 height: 16px;
@@ -45,13 +45,15 @@
         }
 
         &__icon {
-            // background: #fff;
-            width: 70px;
-            height: 70px;
+            background: #fff;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
             margin: 0 auto;
             margin-bottom: 20px;
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: 63%;
+            background-position: center;
 
             &_icon-1 {
                 background-image: url('/pictures/svg/telephone.svg');
