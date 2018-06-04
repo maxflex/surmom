@@ -4,3 +4,8 @@
 <div>
     Телефон: {{ @$request->phone }}
 </div>
+@if (@$request->from)
+    <div>
+        {{ \App\Util\From::OPTIONS[$request->from] }}
+    </div>
+@endif

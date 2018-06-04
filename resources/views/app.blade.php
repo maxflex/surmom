@@ -206,10 +206,15 @@
     							class="form-column">
     							<select
     								class="input-select">
-    								<option
-    									value="">
+    								<option value="">
     									От кого
     								</option>
+                                    <option disabled>──────────────</option>
+                                    @foreach (\App\Util\From::OPTIONS as $id => $option)
+                                        <option value="{{ $id }}">
+                                            {{ $option }}
+                                        </option>
+                                    @endforeach
     							</select>
     						</div>
 

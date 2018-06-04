@@ -26,7 +26,7 @@ const app = new Vue({
     el: '#app',
     data: () => {
         return {
-            request: {},
+            request: {from: ''},
             request_sent: false,
             menu: 1,
         }
