@@ -11,6 +11,11 @@
     min-width: 1000px;
 }
 
+.full-width {
+    width: calc(100vw);
+    min-width: 1000px;
+}
+
 .banner-block {
     background: url('/pictures/pict.jpg');
 	background-position: -230px center;
@@ -89,5 +94,17 @@
 			right: auto;
 			background: linear-gradient(to right, white 230px, transparent 95%);
 		}
+    }
+}
+
+.steps-full-width {
+    background: #e4f0f3;
+    & .button {
+        $steps-button-color: #397686;
+        border-color: $steps-button-color;
+        color: $steps-button-color;
+        &:hover {
+            background: $steps-button-color;
+        }
     }
 }

@@ -828,7 +828,6 @@ a {
 .benefits {
   max-width: 1300px;
   margin: 0 auto;
-  border-bottom: 1px solid #dcdcdc;
   padding: 21px 0 26px;
   margin-bottom: 40px;
 }
@@ -855,30 +854,29 @@ a {
   font-size: 18px;
   line-height: 20px;
   color: #262626;
-  border-left: 1px solid #dcdcdc;
   padding: 5px 0 0 100px;
   width: 250px;
 }
 
 .benefits-list__item_icon-1 {
   width: 240px;
-  background: url(/images/icon-benefit-1.png?4a9119d0dbdcf678b8d4d293d3fdc75b) no-repeat 10px 50%;
+  background: url("/pictures/svg/shield.svg") no-repeat 34px 50%;
   border: 0;
   padding-top: 15px;
 }
 
 .benefits-list__item_icon-2 {
-  background: url(/images/icon-benefit-2.png?05e1564655a28fd1560751951be0a10a) no-repeat 27px 50%;
+  background: url("/pictures/svg/baby-stoller.svg") no-repeat 27px 50%;
 }
 
 .benefits-list__item_icon-3 {
   width: 280px;
-  background: url(/images/icon-benefit-3.png?81671d792c6d185f9c5f3bc9fe787990) no-repeat 22px 50%;
+  background: url("/pictures/svg/contract.svg") no-repeat 22px 50%;
 }
 
 .benefits-list__item_icon-4 {
   width: 220px;
-  background: url(/images/icon-benefit-4.png?ad574c6667fcfe8b9ac193c24ddf7c01) no-repeat 22px 50%;
+  background: url("/pictures/svg/visibility.svg") no-repeat 22px 50%;
 }
 
 .program {
@@ -891,20 +889,26 @@ a {
   text-align: center;
 }
 
+.program h2 a {
+  text-decoration: none;
+  border-bottom: 1px solid #38c956;
+}
+
 .program-list {
   margin: 0;
   padding: 0;
   list-style: none;
-  height: 387px;
+  height: 416px;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   background: url(/images/bg-3.jpg?139adca94120e4759f4003dce500af34) no-repeat 100% 100%;
+  background-size: cover;
 }
 
 .program-list__item {
   float: left;
-  width: 310px;
-  height: 193px;
+  width: 300px;
+  height: 208px;
   border-left: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
   padding: 30px 0 0 35px;
@@ -912,13 +916,13 @@ a {
 
 .program-list__item h2 {
   text-align: left;
-  padding-bottom: 42px;
+  padding-bottom: 54px;
 }
 
 .program-list__item_first {
   border: 0;
   height: 387px;
-  width: 378px;
+  width: 358px;
 }
 
 .program-list__item_first h2 {
@@ -945,7 +949,6 @@ a {
 .steps {
   max-width: 1300px;
   margin: 0 auto;
-  background: #e4f0f3;
   padding: 40px 0 30px 0;
   margin-bottom: 35px;
 }
@@ -988,44 +991,44 @@ a {
   position: absolute;
   top: 46px;
   left: -15px;
-  background: url(/images/bg-4.png?eaab9c57eb10244f35e2f97c71d0c3b5) no-repeat;
-  width: 32px;
-  height: 29px;
+  background: url("/pictures/svg/arrow-pointing-to-right.svg") no-repeat;
+  width: 22px;
+  height: 16px;
+  background-position: center;
+  background-size: 100%;
 }
 
 .steps-list__icon {
-  background: #fff;
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
+  width: 70px;
+  height: 70px;
   margin: 0 auto;
   margin-bottom: 20px;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .steps-list__icon_icon-1 {
-  background-image: url(/images/icon-step-1.png?6392e0bbea5386235fc9cdde0ddff760);
+  background-image: url("/pictures/svg/telephone.svg");
 }
 
 .steps-list__icon_icon-2 {
-  background-image: url(/images/icon-step-2.png?3f23ddd8b54e950734c48cdb0b44f542);
+  background-image: url("/pictures/svg/patent.svg");
 }
 
 .steps-list__icon_icon-3 {
-  background-image: url(/images/icon-step-3.png?4133b4c70cdaf91587806c4c14526368);
+  background-image: url("/pictures/svg/doctor.svg");
 }
 
 .steps-list__icon_icon-4 {
-  background-image: url(/images/icon-step-4.png?8a3f50dfbdb472e5541319749504668e);
+  background-image: url("/pictures/svg/hand-shake.svg");
 }
 
 .steps-list__icon_icon-5 {
-  background-image: url(/images/icon-step-5.png?64fbfa8aedb6200775f6cca90825e84b);
+  background-image: url("/pictures/svg/users-group.svg");
 }
 
 .steps-list__icon_icon-6 {
-  background-image: url(/images/icon-step-6.png?927ebb8de1120c55e67fa263e01f4f64);
+  background-image: url("/pictures/svg/wallet.svg");
 }
 
 .steps-list__title {
@@ -1118,6 +1121,11 @@ a {
 .full-width-wrapper {
   width: calc(100vw);
   margin-left: calc((100vw - 960px) / 2 * -1);
+  min-width: 1000px;
+}
+
+.full-width {
+  width: calc(100vw);
   min-width: 1000px;
 }
 
@@ -1221,5 +1229,18 @@ a {
   left: 0;
   right: auto;
   background: linear-gradient(to right, white 230px, transparent 95%);
+}
+
+.steps-full-width {
+  background: #e4f0f3;
+}
+
+.steps-full-width .button {
+  border-color: #397686;
+  color: #397686;
+}
+
+.steps-full-width .button:hover {
+  background: #397686;
 }
 
