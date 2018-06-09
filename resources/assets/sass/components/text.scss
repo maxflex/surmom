@@ -6,10 +6,28 @@
         background: #f2f2d7 url('/pictures/svg/caution.svg') no-repeat 38px 50%;
         background-size: 55px;
         font-style: italic;
+        height: 155px;
 
         &_no-icon {
             background-image: none;
             padding-left: 30px;
+            width: 690px;
+        }
+
+        &--donors {
+            width: 690px;
+            margin-bottom: 0;
+            background: #e5f5ff url('/pictures/svg/guarantee.svg') no-repeat 38px 50%;
+            background-size: 55px;
+            height: auto;
+            font-style: normal;
+            & .text-list {
+                padding-bottom: 0;
+            }
+            & b {
+                display: block;
+                margin-bottom: 15px;
+            }
         }
     }
 
