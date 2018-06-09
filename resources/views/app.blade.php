@@ -105,7 +105,7 @@
 							class="header-menu-dropdown__item">
 							<a
 								title="Программа Расширенная"
-								href="#"
+								href="/services/2"
 								class="header-menu-dropdown__link">
 								Программа Расширенная
 							</a>
@@ -114,7 +114,7 @@
 							class="header-menu-dropdown__item">
 							<a
 								title="Программа Премиум"
-								href="#"
+								href="/services/3"
 								class="header-menu-dropdown__link">
 								Программа Премиум
 							</a>
@@ -123,9 +123,18 @@
 							class="header-menu-dropdown__item">
 							<a
 								title="Программа NEW"
-								href="#"
+								href="/services/4"
 								class="header-menu-dropdown__link">
 								Программа NEW
+							</a>
+						</li>
+						<li
+							class="header-menu-dropdown__item">
+							<a
+								title="Программа NEW"
+								href="/services/5"
+								class="header-menu-dropdown__link">
+								Программа VIP
 							</a>
 						</li>
 					</ul>
@@ -282,7 +291,7 @@
 								title="Сурогатным мамам"
 								href="/for-surrogates"
 								class="footer-menu__link">
-								Сурогатным мамам
+								Суррогатным мамам
 							</a>
 						</li>
 						<li
@@ -321,7 +330,7 @@
 								title="Четный список сурогатных мам"
 								href="#"
 								class="footer-menu__link">
-								Четный список сурогатных мам
+								Черный список суррогатных мам
 							</a>
 						</li>
 					</ul>

@@ -39,6 +39,6 @@ Route::get('/for-donors', function () {
     return view('for-donors');
 });
 
-Route::get('/services/1', function () {
-    return view('services.1');
+Route::get('/services/{id}', function ($id) {
+    return view("services.{$id}");
 });
